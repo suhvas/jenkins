@@ -10,5 +10,10 @@ public class JenkinsCalculator {
 	public int subtractNumbers(int numberOne, int numberTwo) {
 		return numberOne - numberTwo;
 	}
+	
+	public static void main(String[] args){
+		JenkinsCalculator jenkinsCalculator = new JenkinsCalculator();
+		System.out.println(jenkinsCalculator.addNumbers(5, 9));
+	}
 
 }

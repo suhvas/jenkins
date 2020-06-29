@@ -26,6 +26,19 @@
 
 
  </dependencies>
+	
+ <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Release</name>
+      <url>http://localhost:8081/repository/mobilebank-rel</url>
+    </repository>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Snapshot Release</name>
+      <url>http://localhost:8081/repository/mobilebank-snap</url>
+    </repository>
+  </distributionManagement>
 
   <build>
 		<plugins>
